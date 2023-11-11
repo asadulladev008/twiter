@@ -1,0 +1,108 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+title{
+    text-align: center;
+}
+.h3_form{
+text-align: center;
+font-size: 30px;
+font-family: monospace;
+margin-top: 50px;
+}
+.all_border{
+    display: flex;
+}
+.all_border>*{
+    border: 4px solid blue;
+    height: 70px;
+    width: 250px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 70px;
+}
+.border1{
+    margin-left: 400px;
+    padding: 20px 70px;
+    font-size: 25px;
+    font-family: monospace;
+    color: white;
+    background-color: rgb(16, 93, 227);
+    border: 4px solid rgb(16, 93, 227);
+}
+.border2{
+    margin-left: 100px;
+    padding: 20px 70px;
+    font-size: 25px;
+    font-family: monospace;
+    color: white;
+    background-color: rgb(0, 200, 255);
+    border: 4px solid rgb(0, 200, 255);
+    margin-left: 5px;
+}
+.first_input>*{
+    display: block;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+.input1{
+    margin-bottom: 40px;
+    margin-left: 400px;
+    height: 70px;
+    width: 520px;
+    border-radius: 7px;
+}
+.input1 ::placeholder{
+padding-left: 30px;
+font-size: 17px;
+letter-spacing: 5px;
+color: red;
+}
+.input2{
+    margin-left: 400px;
+    height: 70px;
+    width: 520px;
+    border-radius: 7px;
+}
+.class_div{
+    display: inline-block;
+}
+.box_elements{
+margin-top: 30px;
+margin-left: 400px;
+}
+.input_p{
+    margin-left: 700px;
+    margin-top: 10px;
+    color: rgb(229, 23, 240);
+}
+.button_input{
+    background-color:rgb(241, 19, 237) ;
+    margin-left: 400px;
+    height: 60px;
+    width: 500px;
+    font-size: 25px;
+    color: white;
+}
+.button_input a{
+    text-decoration: none;
+    color: white;
+}
+.one_div>*{
+    display: flex;
+}
+.p1{
+color:black;
+margin-top: 20px;
+}
+.p2{
+    color: rgb(241, 19, 237);
+}
+.one_div>*{
+margin-left: 500px;
+}
+body{
+    background-color: rgb(242, 204, 244);
+}
